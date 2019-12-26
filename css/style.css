@@ -18,12 +18,19 @@ header{
 	margin: 0 auto;
 	padding: 15px 0px;
 }
+.manu-main{
+	width: 100%;
+	float:left;
+	position: fixed;
+}
 .logo{
 	width: 50%;
-	float: left
+	float: left;
+
 }
 .logo img{
 	margin:10px 0px;
+
 }
 .manu{
 	width: 50%;
@@ -146,20 +153,17 @@ header{
 	background-color: #D3D3D3;
 	width: 100%;
 	float: left;
-	margin: 0 auto;
-	padding: 15px 0px;
+	padding: 30px 0px;
 }
 .team-content{
 	width: 100%;
 	text-align: center;
 	float: left;
-
 }
 .team-content h2{
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	
 }
 .team-content span{
 	display: block;
@@ -171,6 +175,7 @@ header{
 .team-content p{
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 30px;
 	padding: 0 20% ;
 }
 .team-type{
@@ -191,6 +196,11 @@ header{
 	border-radius: 50%;
 	margin: 0 auto;
 }
+.team-type-content img:hover{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
 .team-type-content h2{
 	color: black;
 	width: 100%;
@@ -206,15 +216,19 @@ header{
 	color: black;
 	padding: 5px 0px;
 }
+.team-icon{
+	width: 100%;
+	float: left;
+}
 
-.team-type-content ul{
+.team-icon ul{
 	margin-top: 10px;
 }
-.team-type-content ul li {
+.team-icon ul li {
 	list-style: none;
 	display: inline-block;
 }
-.team-type-content ul li :hover{
+.team-icon ul li :hover{
 	transform: scale(1.5);
 }
 #fb{
